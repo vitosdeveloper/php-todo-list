@@ -1,4 +1,5 @@
 <?php
+ob_start();
 include "static/header.php";
 include "server/get/getTasks.php";
 include 'server/post/Delete.php';

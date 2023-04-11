@@ -1,4 +1,5 @@
 <?php
+ob_start();
 include "static/header.php";
 include "server/post/Create.php";
 
