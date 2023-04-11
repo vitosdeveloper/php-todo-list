@@ -1,5 +1,5 @@
 <?php
 include 'Read.php';
 
-const read = new Read();
-$tasks = read->getTasks();
+$read = new Read();
+$tasks = $read->getTasks();
