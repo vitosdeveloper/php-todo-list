@@ -1,0 +1,102 @@
+body {
+  background: rgb(133, 112, 252);
+  margin: 0;
+  padding: 0;
+}
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.app,
+.list,
+.new-task,
+.add-form input,
+.add-form textarea {
+  border-radius: 5px;
+}
+
+.title {
+  text-align: center;
+}
+
+.app {
+  display: grid;
+  gap: 1rem;
+  background: rgb(103, 78, 245);
+  padding: 1rem 2rem;
+  margin: 3rem auto;
+  max-width: 800px;
+}
+
+.list {
+  padding: 1rem;
+  background: rgb(84, 56, 248);
+  display: grid;
+  gap: 1rem;
+}
+
+.new-task {
+  margin: 0 auto;
+  width: 200px;
+  padding: 1rem;
+  background: rgb(84, 56, 248);
+  color: white;
+  font-size: 2rem;
+  border: none;
+}
+.new-task:hover,
+.task:hover {
+  cursor: pointer;
+  color: rgb(221, 221, 221);
+  background: rgb(62, 41, 184);
+}
+
+a {
+  margin: 0 auto;
+}
+
+.add-form {
+  display: grid;
+  width: 500px;
+  margin: 0 auto;
+  gap: 0.5rem;
+}
+
+.add-form label {
+  font-weight: 400;
+}
+
+.add-form input,
+.add-form textarea {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.add-form input[type='date'] {
+  width: 350px;
+}
+
+.task {
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 1rem;
+  background: rgb(133, 112, 252);
+  width: 600px;
+}
+
+.task label {
+  margin: 0 auto;
+  color: rgb(15, 12, 54);
+  font-weight: 600;
+}
